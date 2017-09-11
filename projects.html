@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Projects - Nathan Franczyk</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Nathan Franczyk</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+		  <!--
+          <ul class="navbar-nav ml-auto">
+		
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+		  -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Projects Showcase:
+        <small>The highlights</small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/tcc.jpg"><img class="card-img-top" src="img/tcc.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Fuse Analysis</a>
+              </h4>
+              <p class="card-text">One of my tasks at Ameren was to, by hand, check all 1500+ substations' high side fuses to ensure that the fuse protects the transformer. I, instead, decided to use VBA in excel to
+			  write a program to do power calculations and select the best possible fuse to use. I had to see if the current fuse would protect the transformer,
+			  pull data from a few databases to calculate infinite bus fault current, and consult the SandC company for fuse data. Then, selecting the best fuse was easy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/pcrboard.png"><img class="card-img-top" src="img/pcrboard.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="pcrmachine.html">PCR Machine</a>
+              </h4>
+              <p class="card-text">The Weizmann Institue asked me to design a device that expands their group's prototype's capabilities; task was to expand this prototype to be able to accomodate 8 samples at once and make the system portable.
+				To make the system portable, I must produce a discrete circuit capable of automating the PCR, a power circuit to provide energy, and an optical system that can measure the DNA
+				in a confined space. <!--</p>Click <a href= "pcrmachine.html">here</a> for more detail.-->
+				</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/mosaic.png"><img class="card-img-top" src="img/mosaic.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Photomosaic</a>
+              </h4>
+              <p class="card-text">In my data structures class (using C++), we were tasked with designing a photomosaic that would read an input picture, decompose it into sections of a K-D tree
+			  , find pictures that most closely resemble the section, and replace the sections with the pictures.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/2048game.jpg"><img class="card-img-top" src="img/2048game.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">2048</a>
+              </h4>
+              <p class="card-text">With C, I recreated the logic behind the popular game of 2048. This was part of a class project, and front end display was already created for me. This
+			  version allows a variable grid size. This game has been programmed with a dynamically allocated memory game board. 
+			  This game board is constantly modified during the game's moving functions.
+			  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/solvedmaze.png"><img class="card-img-top" src="img/solvedmaze.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Maze Creator and Solver</a>
+              </h4>
+              <p class="card-text">Another project in my data structers class was to make a program that randomly creates and solves a maze based on a seed. This project used a disjoint
+			  sets data structure to see if sections of a maze were connected in order to create the maze. To solve the maze, a breadth first search was used to find the solution to the maze.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/denoise.png"><img class="card-img-top" src="img/denoise.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Audio Denoising</a>
+              </h4>
+              <p class="card-text">In my digital signal processing lab class, we were given an audio clip with added noise. My task was to graph this signal (in the frequency domain) 
+			  and eliminate the noise using Matlab. I graphed the clip using a spectrogram and filtered out the high pitched noise.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/compress.gif"><img class="card-img-top" src="img/compress.gif" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="flowerpower.html">Flower Power Energy</a>
+              </h4>
+              <p class="card-text">A few years ago I created a start-up that makes portable solar power generator retrofits. Because solar power generators already exist, I decided
+			  that the ability to hook up to a portable gas generator would help us differentiate myself from current portable solar units. <!--Click <a href="flowerpower.html">here</a> for more details.-->
+			  </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="img/radiocircuit.jpg"><img class="card-img-top" src="img/radiocircuit.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">AM Radio</a>
+              </h4>
+              <p class="card-text">As a lab portion for my analog circuits class, one of our projects was to create a portion of an AM Radio. With an antenna, I fed the signal into a band passs filter
+			  to attenuate non radio frequencies and then amplifying the signal in an effort to reduce noise. Using a function generator as a local oscilator, I passed the signal into a prebuilt mixer
+			  circuit. After filtering non-audible noise, this signal was amplified and projected to headphones. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Pagination -->
+	  <!--
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+		<!--
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+		
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+	   -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright Nathan Franczyk 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
